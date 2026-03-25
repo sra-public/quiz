@@ -36,8 +36,10 @@ export function AgeStep() {
 
 export function GenderStep() {
   const options = [
-    { icon: '👩', label: 'Woman', value: 'woman' },
     { icon: '👨', label: 'Man', value: 'man' },
+    { icon: '👩', label: 'Woman', value: 'woman' },
+    { icon: '🧑', label: 'Non-binary', value: 'non_binary' },
+    { icon: '🤐', label: 'Prefer not to say', value: 'prefer_not_to_say' },
   ]
   
   return `

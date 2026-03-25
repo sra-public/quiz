@@ -6,8 +6,8 @@ export function Header() {
         <button class="lang-btn" data-lang="ml">ML</button>
       </div>
       <div class="brand">
-        <h1>Who Else Than</h1>
-        <span>LDF</span>
+        <h1>Who Else But</h1>
+        <span>LDF?</span>
       </div>
     </header>
   `
