@@ -6,14 +6,16 @@ window.ALL_SCHEMES_DATA = [
     "sector": "housing",
     "tags": [
       "worker",
-      "woman",
       "tribal",
       "disabled",
       "rural"
     ],
     "short": "Comprehensive housing scheme building over 4.5 lakh homes for the landless and homeless in Kerala.",
     "emotional": "Your family deserved a secure home. We built it together.",
-    "emotional_ml": "സുരക്ഷിതമായ ഒരു വീട് നിങ്ങളുടെ അവകാശമായിരുന്നു. നമ്മൾ അത് ഒന്നിച്ച് യാഥാർത്ഥ്യമാക്കി."
+    "emotional_ml": "സുരക്ഷിതമായ ഒരു വീട് നിങ്ങളുടെ അവകാശമായിരുന്നു. നമ്മൾ അത് ഒന്നിച്ച് യാഥാർത്ഥ്യമാക്കി.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "K-FON (Kerala Fibre Optic Network)",
@@ -30,7 +32,10 @@ window.ALL_SCHEMES_DATA = [
     ],
     "short": "Rs 1,516 crore project providing high-speed internet as a basic right to households and government offices.",
     "emotional": "The digital future belongs to you. We've bridged the gap.",
-    "emotional_ml": "ഡിജിറ്റൽ ഭാവി നിങ്ങളുടേതാണ്. നമ്മൾ ആ വിടവ് നികത്തിക്കഴിഞ്ഞു."
+    "emotional_ml": "ഡിജിറ്റൽ ഭാവി നിങ്ങളുടേതാണ്. നമ്മൾ ആ വിടവ് നികത്തിക്കഴിഞ്ഞു.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Aardram Mission",
@@ -40,13 +45,15 @@ window.ALL_SCHEMES_DATA = [
     "tags": [
       "senior",
       "worker",
-      "woman",
       "rural",
       "health"
     ],
     "short": "Patient-friendly transformation of primary health centres into Family Health Centres with free quality treatment.",
     "emotional": "Your health is our priority. Dignified care for every citizen.",
-    "emotional_ml": "നിങ്ങളുടെ ആരോഗ്യം ഞങ്ങളുടെ ഉത്തരവാദിത്തം. മികച്ച ചികിത്സ എല്ലാവർക്കും സൗജന്യമായി."
+    "emotional_ml": "നിങ്ങളുടെ ആരോഗ്യം ഞങ്ങളുടെ ഉത്തരവാദിത്തം. മികച്ച ചികിത്സ എല്ലാവർക്കും സൗജന്യമായി.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Haritha Keralam Mission",
@@ -59,7 +66,10 @@ window.ALL_SCHEMES_DATA = [
       "farmer"
     ],
     "short": "Mission integrating waste management, water conservation, and agricultural revival across Kerala.",
-    "emotional": "Protecting our paradise. A greener, safer future for our children."
+    "emotional": "Protecting our paradise. A greener, safer future for our children.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Vidyakiranam (Pothu Vidyabhyasa Samrakshana Yajnam)",
@@ -71,7 +81,10 @@ window.ALL_SCHEMES_DATA = [
       "digital"
     ],
     "short": "Public education rejuvenation converting 45,000+ classrooms into hi-tech digital learning spaces.",
-    "emotional": "Your children deserve the best. The world is now their classroom."
+    "emotional": "Your children deserve the best. The world is now their classroom.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Subhiksha Keralam",
@@ -83,7 +96,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Achieving food self-sufficiency through integrated farming support and Subhiksha affordable hotels.",
-    "emotional": "You feed the state. We ensure your hands remain strong."
+    "emotional": "You feed the state. We ensure your hands remain strong.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Extreme Poverty Eradication Programme (EPEP)",
@@ -93,11 +109,13 @@ window.ALL_SCHEMES_DATA = [
       "rural",
       "worker",
       "tribal",
-      "woman",
       "senior"
     ],
     "short": "Targeted micro-plans to identify and uplift 64,006 families out of extreme poverty.",
-    "emotional": "No one left behind. We hold your hand towards a life of dignity."
+    "emotional": "No one left behind. We hold your hand towards a life of dignity.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "SilverLine (K-Rail)",
@@ -108,7 +126,10 @@ window.ALL_SCHEMES_DATA = [
       "business"
     ],
     "short": "529-km semi-high-speed rail corridor project connecting Thiruvananthapuram and Kasaragod.",
-    "emotional": "Connecting hearts and cities, accelerating our journey into the future."
+    "emotional": "Connecting hearts and cities, accelerating our journey into the future.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Kochi Metro & Water Metro",
@@ -120,7 +141,10 @@ window.ALL_SCHEMES_DATA = [
       "environment"
     ],
     "short": "World-class metro rail and sustainable solar boat transportation across Kochi's backwaters.",
-    "emotional": "Redefining urban travel with sustainability and pride."
+    "emotional": "Redefining urban travel with sustainability and pride.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Kannur International Airport",
@@ -131,7 +155,10 @@ window.ALL_SCHEMES_DATA = [
       "tourism"
     ],
     "short": "Major international aviation hub boosting tourism and trade in the Malabar region.",
-    "emotional": "Taking the dreams of Malabar to the global skies."
+    "emotional": "Taking the dreams of Malabar to the global skies.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Vizhinjam International Seaport",
@@ -143,7 +170,10 @@ window.ALL_SCHEMES_DATA = [
       "infrastructure"
     ],
     "short": "Deep-water multipurpose seaport set to transform Kerala's maritime trade capabilities.",
-    "emotional": "Anchoring Kerala's position on the global trade map."
+    "emotional": "Anchoring Kerala's position on the global trade map.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "GAIL Pipeline",
@@ -154,7 +184,10 @@ window.ALL_SCHEMES_DATA = [
       "environment"
     ],
     "short": "Crucial natural gas pipeline network ensuring clean energy supply across the state.",
-    "emotional": "Fueling our industries and homes with clean, sustainable energy."
+    "emotional": "Fueling our industries and homes with clean, sustainable energy.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Edamon-Kochi Power Highway",
@@ -165,20 +198,25 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "400 KV transmission line ensuring stable and uninterrupted power supply.",
-    "emotional": "Lighting up every corner of Kerala, powering our progress."
+    "emotional": "Lighting up every corner of Kerala, powering our progress.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Kudumbashree (Janakeeya Hotels, Ujjeevanam, Harsham, Snehitha)",
     "year": 1998,
     "sector": "welfare",
     "tags": [
-      "woman",
       "worker",
       "merchant",
       "rural"
     ],
     "short": "Massive women's empowerment network providing affordable meals, micro-enterprise support, and social care.",
-    "emotional": "Your empowerment is Kerala's strength. Leading the way."
+    "emotional": "Your empowerment is Kerala's strength. Leading the way.",
+    "gender": [
+      "woman"
+    ]
   },
   {
     "name": "Kerala Startup Mission (KSUM)",
@@ -191,7 +229,10 @@ window.ALL_SCHEMES_DATA = [
       "digital"
     ],
     "short": "India's best startup ecosystem supporting over 4,681 startups with funding, incubation, and infrastructure.",
-    "emotional": "You have the idea. We have the ecosystem to make it global."
+    "emotional": "You have the idea. We have the ecosystem to make it global.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Technopark Expansion & Digital Science Park",
@@ -203,7 +244,10 @@ window.ALL_SCHEMES_DATA = [
       "business"
     ],
     "short": "Rs 1515 crore Digital Science Park and expansions transforming Kerala into a global IT hub.",
-    "emotional": "Innovation lives here. Building the global IT hub of tomorrow."
+    "emotional": "Innovation lives here. Building the global IT hub of tomorrow.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "K-SWIFT & K-CIS (Ease of Doing Business)",
@@ -215,7 +259,10 @@ window.ALL_SCHEMES_DATA = [
       "startup"
     ],
     "short": "Single-window clearance interface and centralized inspection system for rapid enterprise approvals.",
-    "emotional": "Your dream, our support. Making Kerala the best place to build."
+    "emotional": "Your dream, our support. Making Kerala the best place to build.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Net Zero Carbon Keralam",
@@ -227,7 +274,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "India's first state to implement a comprehensive carbon-neutral farming and energy plan.",
-    "emotional": "Protecting our paradise. A greener, safer future for our children."
+    "emotional": "Protecting our paradise. A greener, safer future for our children.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Kerala Bank",
@@ -239,7 +289,10 @@ window.ALL_SCHEMES_DATA = [
       "merchant"
     ],
     "short": "Consolidation of district and state co-operative banks to form a unified, powerful state bank.",
-    "emotional": "A bank of our own, securing the financial future of every Keralite."
+    "emotional": "A bank of our own, securing the financial future of every Keralite.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "K-Store",
@@ -247,11 +300,13 @@ window.ALL_SCHEMES_DATA = [
     "sector": "welfare",
     "tags": [
       "rural",
-      "worker",
-      "woman"
+      "worker"
     ],
     "short": "Revamped Fair Price Shops providing subsidized commodities, banking, and IT services under one roof.",
-    "emotional": "Essential services right at your doorstep, with care and convenience."
+    "emotional": "Essential services right at your doorstep, with care and convenience.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Mission 1000",
@@ -263,7 +318,10 @@ window.ALL_SCHEMES_DATA = [
       "startup"
     ],
     "short": "Initiative to scale up 1000 MSMEs into ventures with Rs 100 crore average turnover in four years.",
-    "emotional": "Scaling your ambitions to build the enterprises of tomorrow."
+    "emotional": "Scaling your ambitions to build the enterprises of tomorrow.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Smart Cities Mission",
@@ -275,7 +333,10 @@ window.ALL_SCHEMES_DATA = [
       "environment"
     ],
     "short": "Modernizing Kochi and Thiruvananthapuram with smart solutions, improved water supply, and urban rejuvenation.",
-    "emotional": "Building intelligent, sustainable cities for a modern lifestyle."
+    "emotional": "Building intelligent, sustainable cities for a modern lifestyle.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Jal Jeevan Mission (JJM) / Jalanidhi",
@@ -287,7 +348,10 @@ window.ALL_SCHEMES_DATA = [
       "infrastructure"
     ],
     "short": "Providing safe and adequate drinking water through individual household tap connections.",
-    "emotional": "Clean drinking water in every home, nurturing health and life."
+    "emotional": "Clean drinking water in every home, nurturing health and life.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Karunya Arogya Suraksha Padhathi (KASP) & KBF",
@@ -300,7 +364,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Comprehensive health insurance providing Rs 5 Lakhs coverage to vulnerable families.",
-    "emotional": "No family should fear illness. We've got your medical needs covered."
+    "emotional": "No family should fear illness. We've got your medical needs covered.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Student Police Cadet (SPC)",
@@ -311,7 +378,10 @@ window.ALL_SCHEMES_DATA = [
       "youth"
     ],
     "short": "School-based youth development initiative training over 84,930 cadets in law, discipline, and civic sense.",
-    "emotional": "Moulding responsible, compassionate citizens for a brighter tomorrow."
+    "emotional": "Moulding responsible, compassionate citizens for a brighter tomorrow.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Kerala Knowledge Economy Mission (KKEM)",
@@ -323,7 +393,10 @@ window.ALL_SCHEMES_DATA = [
       "student"
     ],
     "short": "Creating gainful employment for educated youth through skill strengthening and local/global demand facilitation.",
-    "emotional": "Turning your knowledge into powerful career opportunities."
+    "emotional": "Turning your knowledge into powerful career opportunities.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Kerala Genome Data Centre (KGDC)",
@@ -335,7 +408,10 @@ window.ALL_SCHEMES_DATA = [
       "techie"
     ],
     "short": "Rs 100 crore project to create a repository of genetic information for healthcare and agricultural research.",
-    "emotional": "Unlocking the secrets of biology to build a healthier Kerala."
+    "emotional": "Unlocking the secrets of biology to build a healthier Kerala.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Digital Land Survey / ILIMS",
@@ -347,7 +423,10 @@ window.ALL_SCHEMES_DATA = [
       "farmer"
     ],
     "short": "Pioneering initiative using CORS network for error-free digital land records and seamless transactions.",
-    "emotional": "Securing your land rights with absolute transparency and modern technology."
+    "emotional": "Securing your land rights with absolute transparency and modern technology.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Vimukthi Mission",
@@ -359,19 +438,24 @@ window.ALL_SCHEMES_DATA = [
       "social"
     ],
     "short": "Comprehensive anti-narcotics campaign focusing on de-addiction, school clubs, and rehabilitation.",
-    "emotional": "Guiding our youth towards a healthy, drug-free life."
+    "emotional": "Guiding our youth towards a healthy, drug-free life.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "WESAT (Women Engineered Satellite)",
     "year": "Not specified in sources",
     "sector": "science",
     "tags": [
-      "woman",
       "student",
       "digital"
     ],
     "short": "First satellite project led by an all-women institute to measure UV rays and climate change impacts.",
-    "emotional": "Our women are reaching for the stars and breaking every barrier."
+    "emotional": "Our women are reaching for the stars and breaking every barrier.",
+    "gender": [
+      "woman"
+    ]
   },
   {
     "name": "ASAP Kerala (Additional Skill Acquisition Programme)",
@@ -383,7 +467,10 @@ window.ALL_SCHEMES_DATA = [
       "merchant"
     ],
     "short": "Imparting industry-relevant skill training to lakhs of students through Community Skill Parks.",
-    "emotional": "Equipping you with the skills to conquer the global job market."
+    "emotional": "Equipping you with the skills to conquer the global job market.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Punargeham Project",
@@ -394,7 +481,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Providing safe flats and housing for fishing communities living in vulnerable coastal areas.",
-    "emotional": "Protecting the guardians of our seas with safe and secure homes."
+    "emotional": "Protecting the guardians of our seas with safe and secure homes.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Sahyakiran & Gothrajeevika",
@@ -406,7 +496,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Revitalizing traditional tribal occupations and providing skill development for sustainable livelihoods.",
-    "emotional": "Honoring indigenous wisdom and building self-reliant communities."
+    "emotional": "Honoring indigenous wisdom and building self-reliant communities.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Navakiranam",
@@ -418,7 +511,10 @@ window.ALL_SCHEMES_DATA = [
       "environment"
     ],
     "short": "Voluntary relocation scheme for non-tribal settlements from forest areas to mitigate human-wildlife conflict.",
-    "emotional": "Ensuring your safety while restoring nature's balance."
+    "emotional": "Ensuring your safety while restoring nature's balance.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Pachathuruth (Green Islets)",
@@ -430,7 +526,10 @@ window.ALL_SCHEMES_DATA = [
       "youth"
     ],
     "short": "Creation of 4,107 green islets across 1,291 acres of public land to protect natural forest specimens.",
-    "emotional": "Planting the seeds of life to combat climate change."
+    "emotional": "Planting the seeds of life to combat climate change.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Thozhil Sabha",
@@ -442,7 +541,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Micro-level platform identifying job seekers on a ward basis to link them with employment and entrepreneurship.",
-    "emotional": "Bringing career opportunities directly to your neighborhood."
+    "emotional": "Bringing career opportunities directly to your neighborhood.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Apna Ghar & AWAS Scheme",
@@ -454,7 +556,10 @@ window.ALL_SCHEMES_DATA = [
       "housing"
     ],
     "short": "Providing good quality housing and health insurance (up to Rs 25,000) for migrant guest workers.",
-    "emotional": "A welcoming home and safe haven for those who build our state."
+    "emotional": "A welcoming home and safe haven for those who build our state.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Neem-G (e-auto)",
@@ -466,7 +571,10 @@ window.ALL_SCHEMES_DATA = [
       "worker"
     ],
     "short": "Kerala’s own commercial-scale e-auto, marking the state's entry into the public sector Electric Vehicle market.",
-    "emotional": "Driving towards a sustainable, zero-emission future."
+    "emotional": "Driving towards a sustainable, zero-emission future.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Unity Mall",
@@ -477,7 +585,10 @@ window.ALL_SCHEMES_DATA = [
       "merchant"
     ],
     "short": "Rs 120 crore dedicated platform at Technopark to promote traditional products and GI-tagged items.",
-    "emotional": "Showcasing the true spirit and craft of Kerala to the world."
+    "emotional": "Showcasing the true spirit and craft of Kerala to the world.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Anuyatra & State Initiative on Disabilities",
@@ -489,18 +600,23 @@ window.ALL_SCHEMES_DATA = [
       "health"
     ],
     "short": "Comprehensive life-cycle approach program integrating disabled individuals into mainstream society.",
-    "emotional": "Walking together towards an inclusive world for everyone."
+    "emotional": "Walking together towards an inclusive world for everyone.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Pink Patrol & Mithra Helpline (181)",
     "year": "Not specified in sources",
     "sector": "social_justice",
     "tags": [
-      "woman",
       "youth"
     ],
     "short": "Dedicated all-women police teams and 24/7 emergency response service ensuring safety for women and children.",
-    "emotional": "You are never alone. Your safety is our absolute commitment."
+    "emotional": "You are never alone. Your safety is our absolute commitment.",
+    "gender": [
+      "woman"
+    ]
   },
   {
     "name": "Education Loan Repayment Support Scheme",
@@ -511,7 +627,10 @@ window.ALL_SCHEMES_DATA = [
       "youth"
     ],
     "short": "Rs 900 crore scheme to alleviate the debt burden of students who availed educational loans.",
-    "emotional": "Freeing your dreams from the weight of financial burden."
+    "emotional": "Freeing your dreams from the weight of financial burden.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Amballur Electronic Hardware Park",
@@ -523,7 +642,10 @@ window.ALL_SCHEMES_DATA = [
       "infrastructure"
     ],
     "short": "Rs 90 crore land acquisition project to develop an electronic hardware manufacturing hub.",
-    "emotional": "Powering the electronics revolution right here in Kerala."
+    "emotional": "Powering the electronics revolution right here in Kerala.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Kerala Agribusiness Company (KABCO)",
@@ -535,7 +657,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Marketing value-added agricultural products under a single brand name to boost farmer incomes.",
-    "emotional": "Bringing the finest harvest of Kerala to the global market."
+    "emotional": "Bringing the finest harvest of Kerala to the global market.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Suchitwa Mission & Malinyamuktham Nava Keralam",
@@ -547,20 +672,25 @@ window.ALL_SCHEMES_DATA = [
       "urban"
     ],
     "short": "Massive public campaign and infrastructure deployment to make Kerala a garbage-free, clean state.",
-    "emotional": "A pristine, beautiful Kerala restored for generations to come."
+    "emotional": "A pristine, beautiful Kerala restored for generations to come.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Haritha Karma Sena",
     "year": 2017,
     "sector": "environment",
     "tags": [
-      "woman",
       "worker",
       "environment",
       "rural"
     ],
     "short": "Deployment of 35,000+ trained women for door-to-door non-biodegradable waste collection and recycling.",
-    "emotional": "Empowering women to be the guardians of our environment."
+    "emotional": "Empowering women to be the guardians of our environment.",
+    "gender": [
+      "woman"
+    ]
   },
   {
     "name": "Thalolam & Arogyakiranam",
@@ -571,7 +701,10 @@ window.ALL_SCHEMES_DATA = [
       "health"
     ],
     "short": "Providing free medical treatment, surgeries, and care for children up to 18 years suffering from severe diseases.",
-    "emotional": "Every child's life is precious. We stand by you in the fight for health."
+    "emotional": "Every child's life is precious. We stand by you in the fight for health.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Vayomithram & Second Innings Project",
@@ -582,7 +715,10 @@ window.ALL_SCHEMES_DATA = [
       "health"
     ],
     "short": "Providing mobile healthcare, free medicines, and upgrading old age homes to support senior citizens.",
-    "emotional": "Honoring your lifelong contributions with dignity and care."
+    "emotional": "Honoring your lifelong contributions with dignity and care.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": "Kairali AI Chip",
@@ -594,7 +730,10 @@ window.ALL_SCHEMES_DATA = [
       "business"
     ],
     "short": "First-of-its-kind AI chip developed by Digital University Kerala, advancing semiconductor capabilities.",
-    "emotional": "Pioneering the AI revolution with homegrown intelligence."
+    "emotional": "Pioneering the AI revolution with homegrown intelligence.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Strengthening of Fish Marketing Infrastructure",
@@ -606,7 +745,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Project approved under KIIFB to modernize fish marketing facilities across multiple coastal districts.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " PPE Mission-Upgradation of one school in each constituency",
@@ -618,7 +760,10 @@ window.ALL_SCHEMES_DATA = [
       "youth"
     ],
     "short": "Project approved under KIIFB for upgrading schools across all 14 districts (Trivandrum to Kasaragod) with high-end facilities.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " General Education Clusters (Phases 1 to 8)",
@@ -630,7 +775,10 @@ window.ALL_SCHEMES_DATA = [
       "youth"
     ],
     "short": "Project approved under KIIFB for comprehensive infrastructural development of school clusters statewide.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Higher Education Clusters & Engineering Colleges",
@@ -642,7 +790,10 @@ window.ALL_SCHEMES_DATA = [
       "youth"
     ],
     "short": "Project approved under KIIFB for modernization of engineering colleges, polytechnics, and arts/science colleges across all districts.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Developing Skill Ecosystem for Work Near Home",
@@ -654,7 +805,10 @@ window.ALL_SCHEMES_DATA = [
       "youth"
     ],
     "short": "Project approved under KIIFB (Rs 27.5 Cr per district) to create localized skill ecosystems.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Government Medical College Thiruvananthapuram Upgrades",
@@ -665,7 +819,10 @@ window.ALL_SCHEMES_DATA = [
       "infrastructure"
     ],
     "short": "Project approved under KIIFB for Isolation Wards, External Infrastructure, MLCP Block, and Imageology Department.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Mental Health Care Centre Trivandrum",
@@ -676,7 +833,10 @@ window.ALL_SCHEMES_DATA = [
       "infrastructure"
     ],
     "short": "Project approved under KIIFB for development of the mental healthcare facility.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Development of Taluk / District / General Hospitals (Statewide)",
@@ -688,7 +848,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Project approved under KIIFB for upgrading hospitals in Malayinkeezhu, Pathanapuram, Adoor, Kozhencherry, Kottayam, Ernakulam, Perinthalmanna, Tirurangadi, Pattambi, Alathur, Mannarkkad, Kannur, Payyanur, Panoor, Peravoor, Mattannur, Koyilandi, Perambra, Bedadka, Kunnamkulam, Kothamangalam.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Malabar Cancer Centre, Thalasseri (2nd Phase)",
@@ -699,7 +862,10 @@ window.ALL_SCHEMES_DATA = [
       "infrastructure"
     ],
     "short": "Project approved under KIIFB for specialized cancer care infrastructure.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Dermatology Hospital and Allied Facilities at Chevayur",
@@ -710,7 +876,10 @@ window.ALL_SCHEMES_DATA = [
       "infrastructure"
     ],
     "short": "Project approved under KIIFB for Health & Family Welfare.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Kochi-Bengaluru Industrial Corridor Project-Land Acquisition",
@@ -721,7 +890,10 @@ window.ALL_SCHEMES_DATA = [
       "business"
     ],
     "short": "Project approved under KIIFB for Industries Department with a cost of 13740000000.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Development of Global CITY as part of KBIC-Land Acquisition",
@@ -732,7 +904,10 @@ window.ALL_SCHEMES_DATA = [
       "business"
     ],
     "short": "Project approved under KIIFB for Industries Department with a cost of 8400000000.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Development of Industrial Infrastructure in Kannur and Palakkad Districts-Land Acquisition",
@@ -743,7 +918,10 @@ window.ALL_SCHEMES_DATA = [
       "business"
     ],
     "short": "Project approved under KIIFB for Industries Department with a cost of 127275000000.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " National highway land acquisition",
@@ -754,7 +932,10 @@ window.ALL_SCHEMES_DATA = [
       "business"
     ],
     "short": "Project approved under KIIFB for Public Works Department with a cost of 67690100000.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Development of Mahe - Valapattanam stretch of West Coast Canal",
@@ -765,7 +946,10 @@ window.ALL_SCHEMES_DATA = [
       "environment"
     ],
     "short": "Project approved under KIIFB for Coastal Shipping & Inland Navigation Department with a cost of 6505000000.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Reformation of sunken Sea wall and construction of Groyne fields at Chellanam",
@@ -776,7 +960,10 @@ window.ALL_SCHEMES_DATA = [
       "environment"
     ],
     "short": "Project approved under KIIFB for Water Resources Department with a cost of 3626463312.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Puthur Zoological Park, Wildlife Conservation & Research Phase II",
@@ -787,7 +974,10 @@ window.ALL_SCHEMES_DATA = [
       "environment"
     ],
     "short": "Project approved under KIIFB for Forest & Wild Life Department with a cost of 2085772890.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Nilaavu",
@@ -798,7 +988,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Project approved under KIIFB for Local Self Government Department with a cost of 2983836876.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Rejuvenation of Akkulam Lake and its Watershed",
@@ -809,7 +1002,10 @@ window.ALL_SCHEMES_DATA = [
       "environment"
     ],
     "short": "Project approved under KIIFB for Tourism Department with a cost of 1175065000.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " AIS Substation Package-1 & Power Line Packages",
@@ -820,7 +1016,10 @@ window.ALL_SCHEMES_DATA = [
       "business"
     ],
     "short": "Project approved under KIIFB for North South Interlink, Kochi Lines, Travancore Lines II, and GIS Substations.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Modern Gas Crematoriums & Market Modernizations",
@@ -831,7 +1030,10 @@ window.ALL_SCHEMES_DATA = [
       "urban"
     ],
     "short": "Project approved under KIIFB for modern crematoriums (Muvattupuzha, Aluva, Ponnanni, Wadakkanchery) and markets (Nedumangad, Kalady).",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Construction of Sub Registrar Offices & Court Complexes",
@@ -842,7 +1044,10 @@ window.ALL_SCHEMES_DATA = [
       "governance"
     ],
     "short": "Project approved under KIIFB for modernizing sub-registrar offices and courts (Nedumkandom, Ranni, Palakkad, Thalassery).",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Construction of Revenue Towers & Mini Civil Stations",
@@ -853,7 +1058,10 @@ window.ALL_SCHEMES_DATA = [
       "governance"
     ],
     "short": "Project approved under KIIFB for administrative buildings in Mulanthuruthy and Chadayamangalam.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Establishment of Science Park at Kannur",
@@ -865,7 +1073,10 @@ window.ALL_SCHEMES_DATA = [
       "youth"
     ],
     "short": "Project approved under KIIFB for Science & Technology Department with a cost of 2211043000.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " 3.4 Lakh sq.ft Buildings at Kochi Innovation Zone",
@@ -877,7 +1088,10 @@ window.ALL_SCHEMES_DATA = [
       "startup"
     ],
     "short": "Project approved under KIIFB for startup and innovation expansion.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Setting up of Oncology Park",
@@ -889,7 +1103,10 @@ window.ALL_SCHEMES_DATA = [
       "health"
     ],
     "short": "Project approved under KIIFB for Industries Department with a cost of 621600000.00.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Lalithambika Antharjanam Cultural Complex & Kazhakootam Film Festival Complex",
@@ -900,7 +1117,10 @@ window.ALL_SCHEMES_DATA = [
       "social"
     ],
     "short": "Project approved under KIIFB for constructing major cultural and cinema complexes.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Setting up of Three star Beach Resort at Muzhuppilangad & Kanjirapuzha Dam Tourism",
@@ -912,7 +1132,10 @@ window.ALL_SCHEMES_DATA = [
       "business"
     ],
     "short": "Project approved under KIIFB for Tourism Department enhancements.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Statewide Stadium and Sports Complex Constructions",
@@ -924,7 +1147,10 @@ window.ALL_SCHEMES_DATA = [
       "social"
     ],
     "short": "Project approved under KIIFB for indoor stadiums, aquatic complexes, and sports centers across multiple districts (Alappuzha, Thrissur, Palakkad, Wayanad, Trivandrum, Kozhikode).",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Statewide Water Supply Schemes (WSS & CWSS)",
@@ -936,7 +1162,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Project approved under KIIFB to augment water supply in Varappuzha, Kalluvathukkal, Thodupuzha, Tanur, Mattanur, Iritty, Manjeri, Malampuzha, Ramanchady, Kizhakkanmala, Mananthvady.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Statewide Bridge Constructions",
@@ -948,7 +1177,10 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Project approved under KIIFB for numerous bridges including Kadamakkudy, Moolakkeelkadavu, Pulinjolikadavu, Kummalloor, Konnayil, Arinalloor, Avalyilkadavu, Elathur-Korapuzha, Chelari-Chettippady, Malampuzha Ring Road, Pattambi, Kondayur, Parali, Alathur Parakkunam, Kodamunda Flyover, Chinganattukadavu, Parakkoottam, Regulator cum Bridge Muttikkal, Kumbichalkadavu, Peroorkada flyover, Neyyattinkara Mullaravila, Ramanchira, Chotta, Kavungal, Pallanchi, Munamelkadavu, Perumbalam, Muttel, Punnamada.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   },
   {
     "name": " Statewide Road and Highway Improvements",
@@ -960,6 +1192,9 @@ window.ALL_SCHEMES_DATA = [
       "rural"
     ],
     "short": "Project approved under KIIFB for massive road upgradation, including segments of the Coastal Highway, Hill Highway, bypasses (Kanjirappally, Kasargode, Kechery-Akkikavu), and major arterial roads across all 14 districts.",
-    "emotional": "Building a stronger, more connected Kerala for you and your community."
+    "emotional": "Building a stronger, more connected Kerala for you and your community.",
+    "gender": [
+      "all"
+    ]
   }
 ];
