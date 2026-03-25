@@ -85,29 +85,42 @@ header {
 
 .hero {
   text-align: center;
-  padding: 40px 24px;
+  padding: 0 0 40px;
   background: linear-gradient(180deg, var(--bg-light) 0%, var(--bg) 100%);
 }
 
 .hero-image {
-  width: 100%;
-  max-width: 600px;
-  height: 300px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: auto;
+  min-height: 300px;
+  max-height: 500px;
   background: var(--bg-light);
-  border: 2px dashed var(--border);
-  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 24px;
-  color: var(--text-secondary);
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+  transition: filter 0.4s ease;
+}
+
+.hero-image:hover .hero-img {
+  filter: sepia(100%) hue-rotate(-50deg) saturate(5) brightness(0.9);
 }
 
 .hero-tagline {
   font-size: 14px;
   color: var(--ldf-red);
   font-weight: 600;
-  margin-bottom: 16px;
+  margin: 24px 0 16px;
+  padding: 0 24px;
 }
 
 .hero h2 {
@@ -116,6 +129,7 @@ header {
   color: var(--text-black);
   line-height: 1.2;
   margin-bottom: 16px;
+  padding: 0 24px;
 }
 
 .hero p {
@@ -123,6 +137,7 @@ header {
   color: var(--text-secondary);
   max-width: 400px;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 .cta-card {

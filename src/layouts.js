@@ -21,8 +21,7 @@ export function LandingPage() {
     ${Header()}
     <main class="hero">
       <div class="hero-image">
-        [ FULL WIDTH HERO IMAGE ]
-        <br>Characters pointing & smiling
+        <img src="/IMG/hero.png" alt="LDF - Left Democratic Front" class="hero-img">
       </div>
       <p class="hero-tagline">Left Democratic Front · Keralam</p>
       <h2>Why should you<br>vote for<br>LDF?</h2>
