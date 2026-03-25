@@ -1,4 +1,20 @@
 import { Header, ProgressBar, OptionCard, PriorityOption, AgeSlider, NavButtons, SubmitButton } from './components.js'
+import { generateReportHTML } from './mock-reports.js'
+
+export let quizData = {
+  age: 28,
+  gender: null,
+  occupation: null,
+  priorities: [],
+}
+
+export function setQuizData(data) {
+  quizData = { ...quizData, ...data }
+}
+
+export function getQuizData() {
+  return quizData
+}
 
 export function LandingPage() {
   return `
@@ -111,5 +127,14 @@ export function PriorityStep() {
       ${SubmitButton()}
     </main>
     ${NavButtons()}
+  `
+}
+
+export function ReportPage(report) {
+  return `
+    ${Header()}
+    <main class="report-page">
+      ${generateReportHTML(report)}
+    </main>
   `
 }

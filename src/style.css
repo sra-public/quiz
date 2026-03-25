@@ -390,3 +390,186 @@ input[type="range"]::-webkit-slider-thumb {
 .hidden {
   display: none !important;
 }
+
+.report-page {
+  flex: 1;
+  padding: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.report-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.report-header {
+  text-align: center;
+}
+
+.report-header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--ldf-red);
+  margin-bottom: 8px;
+}
+
+.report-subtitle {
+  font-size: 18px;
+  color: var(--text-secondary);
+}
+
+.report-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .report-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.summary-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.summary-icon {
+  font-size: 24px;
+}
+
+.summary-value {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-black);
+  text-transform: capitalize;
+}
+
+.summary-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.report-schemes h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--text-black);
+}
+
+.schemes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .schemes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.scheme-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.scheme-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.scheme-sector {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--ldf-red);
+  background: rgba(211, 47, 47, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.scheme-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-black);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.scheme-short {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.scheme-emotional {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--ldf-red);
+  margin-bottom: 8px;
+}
+
+.scheme-year {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.report-cta {
+  text-align: center;
+  padding: 32px;
+  background: var(--bg-light);
+  border-radius: 16px;
+}
+
+.report-cta h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-black);
+}
+
+.report-cta p {
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.share-btn {
+  padding: 10px 20px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.share-btn:hover {
+  background: var(--bg-light);
+  border-color: var(--ldf-red);
+}
