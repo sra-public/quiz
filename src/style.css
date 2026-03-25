@@ -136,12 +136,13 @@ header {
 
 .cta-card {
   max-width: 480px;
-  margin: 40px auto;
-  padding: 32px;
-  background: var(--card-bg);
-  border-radius: 16px;
-  box-shadow: var(--shadow);
+  margin: 12px auto;
+  padding: 0px 32px;
   text-align: center;
+}
+
+.cta-card button {
+  margin-bottom: 12px;
 }
 
 .cta-card h3 {

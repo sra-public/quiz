@@ -6,6 +6,17 @@
 |  [ FULL WIDTH HERO IMAGE ]                |
 |  (Characters pointing & smiling)          |
 |                                           |
++-------------------------------------------+
+|  +-------------------------------------+  |
+|  |  Your Story Starts Here             |  |
+|  |                                     |  |
+|  |  Share a little about yourself to   |  |
+|  |  see how LDF's work has shaped      |  |
+|  |  your life.                         |  |
+|  |                                     |  |
+|  |  [ START MY JOURNEY > ]             |  |
+|  +-------------------------------------+  |
++-------------------------------------------+
 |  Left Democratic Front · Keralam          |
 |                                           |
 |  Why should you                           |
@@ -18,17 +29,7 @@
 |                                           |
 |  [Malayalam Banner Text Visible]          |
 |                                           |
-+-------------------------------------------+
-|  +-------------------------------------+  |
-|  |  Your Story Starts Here             |  |
-|  |                                     |  |
-|  |  Share a little about yourself to   |  |
-|  |  see how LDF's work has shaped      |  |
-|  |  your life.                         |  |
-|  |                                     |  |
-|  |  [ START MY JOURNEY > ]             |  |
-|  +-------------------------------------+  |
-+-------------------------------------------+
+
 
 +-------------------------------------------+
 |  [EN] [ML]                  Who Else But |

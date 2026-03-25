@@ -24,15 +24,15 @@ export function LandingPage() {
       <div class="hero-image">
         <img src="IMG/hero.png" alt="LDF - Left Democratic Front" class="hero-img">
       </div>
-      <p class="hero-tagline">${t('tagline')}</p>
       <h2>${t('heroTitle1')}<br>${t('heroTitle2')}<br>${t('heroTitle3')}</h2>
+      <div class="cta-card">
+        <button class="btn-primary" data-action="start">${t('ctaButton')}</button>
+        <h3>${t('ctaTitle')}</h3>
+        <p>${t('ctaDesc')}</p>
+      </div>
+      <p class="hero-tagline">${t('tagline')}</p>
       <p>${t('heroDesc')}</p>
     </main>
-    <div class="cta-card">
-      <h3>${t('ctaTitle')}</h3>
-      <p>${t('ctaDesc')}</p>
-      <button class="btn-primary" data-action="start">${t('ctaButton')}</button>
-    </div>
   `
 }
 
