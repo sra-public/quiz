@@ -22,7 +22,7 @@ export function LandingPage() {
     ${Header()}
     <main class="hero">
       <div class="hero-image">
-        <img src="/IMG/hero.png" alt="LDF - Left Democratic Front" class="hero-img">
+        <img src="IMG/hero.png" alt="LDF - Left Democratic Front" class="hero-img">
       </div>
       <p class="hero-tagline">${t('tagline')}</p>
       <h2>${t('heroTitle1')}<br>${t('heroTitle2')}<br>${t('heroTitle3')}</h2>
@@ -52,10 +52,10 @@ export function AgeStep() {
 
 export function GenderStep() {
   const options = [
-    { icon: '<img src="/icons_gender/gender_male.jpeg" alt="Man">', label: t('man'), value: 'man' },
-    { icon: '<img src="/icons_gender/gender_female.jpeg" alt="Woman">', label: t('woman'), value: 'woman' },
-    { icon: '<img src="/icons_gender/gender_nb.jpeg" alt="Non-binary">', label: t('nonBinary'), value: 'non_binary' },
-    { icon: '<img src="/icons_gender/gender_donot_say.jpeg" alt="Prefer not to say">', label: t('preferNotToSay'), value: 'prefer_not_to_say' },
+    { icon: '<img src="icons_gender/gender_male.jpeg" alt="Man">', label: t('man'), value: 'man' },
+    { icon: '<img src="icons_gender/gender_female.jpeg" alt="Woman">', label: t('woman'), value: 'woman' },
+    { icon: '<img src="icons_gender/gender_nb.jpeg" alt="Non-binary">', label: t('nonBinary'), value: 'non_binary' },
+    { icon: '<img src="icons_gender/gender_donot_say.jpeg" alt="Prefer not to say">', label: t('preferNotToSay'), value: 'prefer_not_to_say' },
   ]
   
   return `

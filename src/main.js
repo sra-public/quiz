@@ -1,7 +1,11 @@
 import './style.css'
+
+import { ALL_SCHEMES_DATA } from './schemes.js';
 import { LandingPage, AgeStep, GenderStep, OccupationStep, PriorityStep, ReportPage, getQuizData, setQuizData } from './layouts.js'
 import { getReport } from './mock-reports.js'
 import { setLanguage, getLanguage } from './i18n.js'
+
+window.ALL_SCHEMES_DATA = ALL_SCHEMES_DATA;
 
 const screens = {
   landing: LandingPage,

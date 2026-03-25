@@ -1,8 +1,9 @@
+import { ALL_SCHEMES_DATA } from './schemes.js'
 import { t } from './i18n.js'
 
 export function getReport(quizData) {
   const { age, gender, occupation, priorities } = quizData
-  const schemes = window.ALL_SCHEMES_DATA || []
+  const schemes = ALL_SCHEMES_DATA || []
 
   const occupationToTags = {
     student: ['student', 'youth', 'digital'],
@@ -101,7 +102,7 @@ export function generateReportHTML(report) {
         </div>
         <div class="summary-card">
           <span class="summary-icon">
-            <img src="/icons_gender/gender_${quizData.gender === 'man' ? 'male' : quizData.gender === 'woman' ? 'female' : quizData.gender === 'non_binary' ? 'nb' : 'donot_say'}.jpeg" alt="${quizData.gender}" class="summary-img">
+            <img src="icons_gender/gender_${quizData.gender === 'man' ? 'male' : quizData.gender === 'woman' ? 'female' : quizData.gender === 'non_binary' ? 'nb' : 'donot_say'}.jpeg" alt="${quizData.gender}" class="summary-img">
           </span>
           <span class="summary-value">${t(genderKey[quizData.gender] || 'preferNotToSay')}</span>
           <span class="summary-label">${t('reportGender')}</span>

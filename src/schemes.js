@@ -1,4 +1,4 @@
-window.ALL_SCHEMES_DATA = [
+export const ALL_SCHEMES_DATA = [
   {
     "name": "LIFE Mission (Livelihood Inclusion and Financial Empowerment)",
     "name_ml": "ലൈഫ് മിഷൻ",
