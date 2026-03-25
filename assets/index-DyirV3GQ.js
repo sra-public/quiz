@@ -41,7 +41,7 @@
       ${e?`<button class="btn-back" data-action="back">${a(`back`)}</button>`:`<div></div>`}
       ${t?``:`<button class="btn-next" data-action="next">${a(`nextStep`)}</button>`}
     </div>
-  `}function p(){return`<button class="btn-submit">${a(`submit`)}</button>`}function m(e){let{age:t,gender:n,occupation:r,priorities:i}=e,a=window.ALL_SCHEMES_DATA||[],o={student:[`student`,`youth`,`digital`],farmer:[`farmer`,`rural`,`agriculture`],worker:[`worker`,`labour`],fisher:[`fisher`,`fisheries`,`coastal`,`rural`],senior:[`senior`,`health`,`pension`],differently_abled:[`disabled`,`health`,`social_justice`],techie:[`techie`,`digital`,`startup`,`it`],business:[`business`,`merchant`,`startup`,`industry`]},s={health:`health`,education:`education`,jobs:`employment`,housing:`housing`,welfare:`welfare`,infrastructure:`infrastructure`,environment:`environment`,industry:`industry`,transport:`transport`,social_justice:`social_justice`},c=a.filter(e=>{if(!e.gender.includes(`all`)&&!e.gender.includes(n))return!1;let t=e.tags||[],a=(o[r]||[]).some(e=>t.includes(e)),c=(e.sector||``).toLowerCase(),l=i.map(e=>s[e]||e).includes(c);return a||l}),l=c.sort((e,t)=>{let n=e.tags||[],a=t.tags||[],c=o[r]||[],l=n.filter(e=>c.includes(e)).length,u=a.filter(e=>c.includes(e)).length,d=i.map(e=>s[e]||e),f=d.includes(e.sector?.toLowerCase())?1:0;return u+(d.includes(t.sector?.toLowerCase())?1:0)-(l+f)}).slice(0,6),u=t<25?`youth`:t<45?`adult`:t<60?`middle`:`senior`;return{schemes:l,stats:{totalSchemes:c.length,topPriority:i[0]||`welfare`,ageGroup:u},quizData:e}}function h(e){let{schemes:t,stats:n,quizData:r}=e;return`
+  `}function p(){return`<button class="btn-submit">${a(`submit`)}</button>`}function m(t){let{age:n,gender:r,occupation:i,priorities:a}=t,o=e||[],s={student:[`student`,`youth`,`digital`],farmer:[`farmer`,`rural`,`agriculture`],worker:[`worker`,`labour`],fisher:[`fisher`,`fisheries`,`coastal`,`rural`],senior:[`senior`,`health`,`pension`],differently_abled:[`disabled`,`health`,`social_justice`],techie:[`techie`,`digital`,`startup`,`it`],business:[`business`,`merchant`,`startup`,`industry`]},c={health:`health`,education:`education`,jobs:`employment`,housing:`housing`,welfare:`welfare`,infrastructure:`infrastructure`,environment:`environment`,industry:`industry`,transport:`transport`,social_justice:`social_justice`},l=o.filter(e=>{if(!e.gender.includes(`all`)&&!e.gender.includes(r))return!1;let t=e.tags||[],n=(s[i]||[]).some(e=>t.includes(e)),o=(e.sector||``).toLowerCase(),l=a.map(e=>c[e]||e).includes(o);return n||l}),u=l.sort((e,t)=>{let n=e.tags||[],r=t.tags||[],o=s[i]||[],l=n.filter(e=>o.includes(e)).length,u=r.filter(e=>o.includes(e)).length,d=a.map(e=>c[e]||e),f=d.includes(e.sector?.toLowerCase())?1:0;return u+(d.includes(t.sector?.toLowerCase())?1:0)-(l+f)}).slice(0,6),d=n<25?`youth`:n<45?`adult`:n<60?`middle`:`senior`;return{schemes:u,stats:{totalSchemes:l.length,topPriority:a[0]||`welfare`,ageGroup:d},quizData:t}}function h(e){let{schemes:t,stats:n,quizData:r}=e;return`
     <div class="report-container">
       <section class="report-header">
         <h1>${a(`reportTitle`)}</h1>
@@ -56,7 +56,7 @@
         </div>
         <div class="summary-card">
           <span class="summary-icon">
-            <img src="/icons_gender/gender_${r.gender===`man`?`male`:r.gender===`woman`?`female`:r.gender===`non_binary`?`nb`:`donot_say`}.jpeg" alt="${r.gender}" class="summary-img">
+            <img src="icons_gender/gender_${r.gender===`man`?`male`:r.gender===`woman`?`female`:r.gender===`non_binary`?`nb`:`donot_say`}.jpeg" alt="${r.gender}" class="summary-img">
           </span>
           <span class="summary-value">${a({man:`man`,woman:`woman`,non_binary:`nonBinary`,prefer_not_to_say:`preferNotToSay`}[r.gender]||`preferNotToSay`)}</span>
           <span class="summary-label">${a(`reportGender`)}</span>
@@ -103,7 +103,7 @@
     ${s()}
     <main class="hero">
       <div class="hero-image">
-        <img src="/IMG/hero.png" alt="LDF - Left Democratic Front" class="hero-img">
+        <img src="IMG/hero.png" alt="LDF - Left Democratic Front" class="hero-img">
       </div>
       <p class="hero-tagline">${a(`tagline`)}</p>
       <h2>${a(`heroTitle1`)}<br>${a(`heroTitle2`)}<br>${a(`heroTitle3`)}</h2>
@@ -124,7 +124,7 @@
       ${d(28)}
     </main>
     ${f(!1)}
-  `}function x(){let e=[{icon:`<img src="/icons_gender/gender_male.jpeg" alt="Man">`,label:a(`man`),value:`man`},{icon:`<img src="/icons_gender/gender_female.jpeg" alt="Woman">`,label:a(`woman`),value:`woman`},{icon:`<img src="/icons_gender/gender_nb.jpeg" alt="Non-binary">`,label:a(`nonBinary`),value:`non_binary`},{icon:`<img src="/icons_gender/gender_donot_say.jpeg" alt="Prefer not to say">`,label:a(`preferNotToSay`),value:`prefer_not_to_say`}];return`
+  `}function x(){let e=[{icon:`<img src="icons_gender/gender_male.jpeg" alt="Man">`,label:a(`man`),value:`man`},{icon:`<img src="icons_gender/gender_female.jpeg" alt="Woman">`,label:a(`woman`),value:`woman`},{icon:`<img src="icons_gender/gender_nb.jpeg" alt="Non-binary">`,label:a(`nonBinary`),value:`non_binary`},{icon:`<img src="icons_gender/gender_donot_say.jpeg" alt="Prefer not to say">`,label:a(`preferNotToSay`),value:`prefer_not_to_say`}];return`
     ${s()}
     ${c(2,4)}
     <main class="quiz-content">
