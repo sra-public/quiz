@@ -91,7 +91,9 @@ export function generateReportHTML(report) {
           <span class="summary-label">Age</span>
         </div>
         <div class="summary-card">
-          <span class="summary-icon">${quizData.gender === 'man' ? '👨' : quizData.gender === 'woman' ? '👩' : '🧑'}</span>
+          <span class="summary-icon">
+            <img src="/icons_gender/gender_${quizData.gender === 'man' ? 'male' : quizData.gender === 'woman' ? 'female' : quizData.gender === 'non_binary' ? 'nb' : 'donot_say'}.jpeg" alt="${quizData.gender}" class="summary-img">
+          </span>
           <span class="summary-value">${quizData.gender.replace('_', ' ')}</span>
           <span class="summary-label">Gender</span>
         </div>
