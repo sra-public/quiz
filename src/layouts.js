@@ -73,16 +73,22 @@ export function GenderStep() {
   `
 }
 
+function JobSprite(row, col) {
+  const posX = (col / 3) * 100
+  const posY = (row / 2) * 100
+  return `<div class="job-sprite" style="background-position: ${posX}% ${posY}%;"></div>`
+}
+
 export function OccupationStep() {
   const options = [
-    { icon: '🎓', label: t('student'), value: 'student' },
-    { icon: '🌾', label: t('farmer'), value: 'farmer' },
-    { icon: '👷', label: t('worker'), value: 'worker' },
-    { icon: '🐟', label: t('fisher'), value: 'fisher' },
-    { icon: '👴', label: t('senior'), value: 'senior' },
-    { icon: '♿', label: t('differentlyAbled'), value: 'differently_abled' },
-    { icon: '💻', label: t('techie'), value: 'techie' },
-    { icon: '💼', label: t('business'), value: 'business' },
+    { icon: JobSprite(0, 0), label: t('student'), value: 'student' },
+    { icon: JobSprite(0, 1), label: t('farmer'), value: 'farmer' },
+    { icon: JobSprite(0, 2), label: t('worker'), value: 'worker' },
+    { icon: JobSprite(1, 3), label: t('fisher'), value: 'fisher' },
+    { icon: JobSprite(1, 2), label: t('senior'), value: 'senior' },
+    { icon: JobSprite(1, 0), label: t('differently_abled'), value: 'differently_abled' },
+    { icon: JobSprite(2, 2), label: t('techie'), value: 'techie' },
+    { icon: JobSprite(2, 3), label: t('business'), value: 'business' },
   ]
   
   return `
