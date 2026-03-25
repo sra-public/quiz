@@ -105,15 +105,15 @@
       <div class="hero-image">
         <img src="IMG/hero.png" alt="LDF - Left Democratic Front" class="hero-img">
       </div>
-      <p class="hero-tagline">${a(`tagline`)}</p>
       <h2>${a(`heroTitle1`)}<br>${a(`heroTitle2`)}<br>${a(`heroTitle3`)}</h2>
+      <div class="cta-card">
+        <button class="btn-primary" data-action="start">${a(`ctaButton`)}</button>
+        <h3>${a(`ctaTitle`)}</h3>
+        <p>${a(`ctaDesc`)}</p>
+      </div>
+      <p class="hero-tagline">${a(`tagline`)}</p>
       <p>${a(`heroDesc`)}</p>
     </main>
-    <div class="cta-card">
-      <h3>${a(`ctaTitle`)}</h3>
-      <p>${a(`ctaDesc`)}</p>
-      <button class="btn-primary" data-action="start">${a(`ctaButton`)}</button>
-    </div>
   `}function b(){return`
     ${s()}
     ${c(1,4)}
