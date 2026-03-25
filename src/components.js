@@ -1,3 +1,5 @@
+import { t, tf } from './i18n.js'
+
 export function Header() {
   return `
     <header>
@@ -6,8 +8,7 @@ export function Header() {
         <button class="lang-btn" data-lang="ml">ML</button>
       </div>
       <div class="brand">
-        <h1>Who Else But</h1>
-        <span>LDF?</span>
+        <h1>${t('brand')}</h1>
       </div>
     </header>
   `
@@ -20,7 +21,7 @@ export function ProgressBar(step, total) {
       <div class="progress-track">
         <div class="progress-fill" style="width: ${percent}%"></div>
       </div>
-      <p class="progress-text">Step ${step} of ${total}</p>
+      <p class="progress-text">${tf('stepOf', { current: step, total: total })}</p>
     </div>
   `
 }
@@ -47,7 +48,7 @@ export function AgeSlider(currentAge = 28) {
   return `
     <div class="age-slider">
       <div class="age-display">
-        <span id="age-value">${currentAge}</span> <span>yrs</span>
+        <span id="age-value">${currentAge}</span> <span>${t('ageYears')}</span>
       </div>
       <input type="range" id="age-input" min="18" max="60" value="${currentAge}">
       <div class="age-labels">
@@ -60,12 +61,12 @@ export function AgeSlider(currentAge = 28) {
 
 export function NavButtons(showBack = true, isLastStep = false) {
   const backBtn = showBack 
-    ? `<button class="btn-back" data-action="back">< Back</button>` 
+    ? `<button class="btn-back" data-action="back">${t('back')}</button>` 
     : `<div></div>`
   
   const nextBtn = isLastStep
     ? ``
-    : `<button class="btn-next" data-action="next">Next Step ></button>`
+    : `<button class="btn-next" data-action="next">${t('nextStep')}</button>`
 
   return `
     <div class="quiz-nav">
@@ -75,8 +76,8 @@ export function NavButtons(showBack = true, isLastStep = false) {
   `
 }
 
-export function SubmitButton(text = "Show My LDF Story") {
-  return `<button class="btn-submit">${text}</button>`
+export function SubmitButton() {
+  return `<button class="btn-submit">${t('submit')}</button>`
 }
 
 export function Button(text, variant = 'primary') {

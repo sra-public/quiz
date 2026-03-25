@@ -1,0 +1,140 @@
+export const translations = {
+  en: {
+    brand: 'Who Else But LDF?',
+    tagline: 'Left Democratic Front · Keralam',
+    heroTitle1: 'Why should you',
+    heroTitle2: 'vote for',
+    heroTitle3: 'LDF?',
+    heroDesc: "10 years of governance. Tell us who you are — and we'll show you exactly what we've done for you.",
+    ctaTitle: 'Your Story Starts Here',
+    ctaDesc: "Share a little about yourself to see how LDF's work has shaped your life.",
+    ctaButton: 'Start My Journey >',
+    stepOf: 'Step {current} of {total}',
+    yourStory: 'Your Story Starts Here',
+    ageTitle: 'Your Age',
+    ageLabel: 'YOUR AGE *',
+    ageYears: 'yrs',
+    genderTitle: 'Gender',
+    genderLabel: 'GENDER *',
+    man: 'Man',
+    woman: 'Woman',
+    nonBinary: 'Non-binary, Trans',
+    preferNotToSay: 'Prefer not to say',
+    occupationTitle: 'I am a...',
+    occupationLabel: 'I AM A... *',
+    student: 'Student',
+    farmer: 'Farmer',
+    worker: 'Worker',
+    fisher: 'Fisher',
+    senior: 'Senior',
+    differently_abled: 'Diff. Abled',
+    techie: 'Techie',
+    business: 'Business',
+    priorityTitle: 'What Matters Most to You?',
+    priorityLabel: 'WHAT MATTERS MOST TO YOU?',
+    health: 'Health',
+    education: 'Education',
+    jobs: 'Jobs',
+    housing: 'Housing',
+    welfare: 'Welfare',
+    infrastructure: 'Infrastructure',
+    environment: 'Environment',
+    industry: 'Industry',
+    transport: 'Transport',
+    social_justice: 'Social Justice',
+    back: '< Back',
+    nextStep: 'Next Step >',
+    submit: 'Show My LDF Story',
+    reportTitle: 'Your LDF Story',
+    reportSubtitle: 'Personalized schemes and initiatives for you',
+    reportAge: 'Age',
+    reportGender: 'Gender',
+    reportOccupation: 'Occupation',
+    reportSchemes: 'Schemes for you',
+    reportSchemesTitle: 'Schemes That Matter to You',
+    reportSince: 'Since',
+    shareTitle: 'Share Your Story',
+    shareDesc: 'Help spread the word about LDF\'s work for Kerala',
+    restart: 'Take Quiz Again',
+  },
+  ml: {
+    brand: 'മറ്റാരുണ്ട് എൽഡിഎഫ് അല്ലാതെ?',
+    tagline: 'ഇടതുപക്ഷ ജനാധിപത്യ മുന്നണി · കേരളം',
+    heroTitle1: 'നിങ്ങൾ എന്തുകൊണ്ട്',
+    heroTitle2: 'വോട്ട് ചെയ്യണം',
+    heroTitle3: 'എൽഡിഎഫിന്‌',
+    heroDesc: 'പത്ത് വർഷത്തെ ഭരണം. നിങ്ങൾ ആരാണെന്ന് പറയൂ - നിങ്ങൾക്ക് വേണ്ടി ഞങ്ങൾ എന്തൊക്കെ ചെയ്തു എന്ന് ഞങ്ങൾ കാണിക്കാം.',
+    ctaTitle: 'നിങ്ങളുടെ കഥ ഇവിടെ തുടങ്ങുന്നു',
+    ctaDesc: 'എൽഡിഎഫിന്റെ പ്രവർത്തനങ്ങൾ നിങ്ങളുടെ ജീവിതത്തെ എങ്ങനെ സ്വാധീനിച്ചു എന്നറിയാൻ കുറച്ച് വിവരങ്ങൾ പങ്കിടുക.',
+    ctaButton: 'എന്റെ യാത്ര ആരംഭിക്കുക >',
+    stepOf: 'ഘട്ടം {current} / {total}',
+    yourStory: 'നിങ്ങളുടെ കഥ ഇവിടെ തുടങ്ങുന്നു',
+    ageTitle: 'നിങ്ങളുടെ പ്രായം',
+    ageLabel: 'പ്രായം *',
+    ageYears: 'വയസ്സ്',
+    genderTitle: 'ലിംഗം',
+    genderLabel: 'ലിംഗം *',
+    man: 'പുരുഷൻ',
+    woman: 'സ്ത്രീ',
+    nonBinary: 'നോൺ-ബൈനറി, ട്രാൻസ്',
+    preferNotToSay: 'പറയാൻ ആഗ്രഹിക്കുന്നില്ല',
+    occupationTitle: 'ഞാൻ ഒരു...',
+    occupationLabel: 'ഞാൻ ഒരു... *',
+    student: 'വിദ്യാർത്ഥി',
+    farmer: 'കർഷകൻ',
+    worker: 'തൊഴിലാളി',
+    fisher: 'മത്സ്യതൊഴിലാളി',
+    senior: 'മുതിർന്നവർ',
+    differently_abled: 'വികലാംഗർ',
+    techie: 'ടെക്കി',
+    business: 'ബിസിനസ്',
+    priorityTitle: 'നിങ്ങൾക്ക് ഏറ്റവും പ്രധാനം എന്താണ്?',
+    priorityLabel: 'നിങ്ങൾക്ക് ഏറ്റവും പ്രധാനം എന്താണ്?',
+    health: 'ആരോഗ്യം',
+    education: 'വിദ്യാഭ്യാസം',
+    jobs: 'തൊഴിൽ',
+    housing: 'പാർപ്പിടം',
+    welfare: 'ക്ഷേമം',
+    infrastructure: 'അടിസ്ഥാന സൗകര്യം',
+    environment: 'പരിസ്ഥിതി',
+    industry: 'വ്യവസായം',
+    transport: 'ഗതാഗതം',
+    social_justice: 'സാമൂഹ്യനീതി',
+    back: '< തിരികെ',
+    nextStep: 'അടുത്ത ഘട്ടം >',
+    submit: 'എന്റെ എൽഡിഎഫ് കഥ കാണുക',
+    reportTitle: 'നിങ്ങളുടെ എൽഡിഎഫ് കഥ',
+    reportSubtitle: 'നിങ്ങൾക്കായുള്ള പദ്ധതികളും സംരംഭങ്ങളും',
+    reportAge: 'പ്രായം',
+    reportGender: 'ലിംഗം',
+    reportOccupation: 'തൊഴിൽ',
+    reportSchemes: 'നിങ്ങൾക്കുള്ള പദ്ധതികൾ',
+    reportSchemesTitle: 'നിങ്ങൾക്ക് പ്രധാനമായ പദ്ധതികൾ',
+    reportSince: 'മുതൽ',
+    shareTitle: 'നിങ്ങളുടെ കഥ പങ്കിടുക',
+    shareDesc: 'കേരളത്തിനായുള്ള എൽഡിഎഫിന്റെ പ്രവർത്തനങ്ങളെക്കുറിച്ച് പ്രചരിപ്പിക്കുക',
+    restart: 'വീണ്ടും ക്വിസ് എടുക്കുക',
+  }
+}
+
+let currentLang = 'en'
+
+export function setLanguage(lang) {
+  currentLang = lang
+}
+
+export function getLanguage() {
+  return currentLang
+}
+
+export function t(key) {
+  return translations[currentLang][key] || translations['en'][key] || key
+}
+
+export function tf(key, vars) {
+  let str = t(key)
+  Object.keys(vars).forEach(k => {
+    str = str.replace(`{${k}}`, vars[k])
+  })
+  return str
+}

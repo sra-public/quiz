@@ -1,3 +1,5 @@
+import { t } from './i18n.js'
+
 export function getReport(quizData) {
   const { age, gender, occupation, priorities } = quizData
   const schemes = window.ALL_SCHEMES_DATA || []
@@ -77,40 +79,47 @@ export function getReport(quizData) {
 export function generateReportHTML(report) {
   const { schemes, stats, quizData } = report
   
+  const genderKey = {
+    man: 'man',
+    woman: 'woman',
+    non_binary: 'nonBinary',
+    prefer_not_to_say: 'preferNotToSay'
+  }
+  
   return `
     <div class="report-container">
       <section class="report-header">
-        <h1>Your LDF Story</h1>
-        <p class="report-subtitle">Personalized schemes and initiatives for you</p>
+        <h1>${t('reportTitle')}</h1>
+        <p class="report-subtitle">${t('reportSubtitle')}</p>
       </section>
 
       <section class="report-summary">
         <div class="summary-card">
           <span class="summary-icon">🎂</span>
-          <span class="summary-value">${quizData.age} years</span>
-          <span class="summary-label">Age</span>
+          <span class="summary-value">${quizData.age} ${t('ageYears')}</span>
+          <span class="summary-label">${t('reportAge')}</span>
         </div>
         <div class="summary-card">
           <span class="summary-icon">
             <img src="/icons_gender/gender_${quizData.gender === 'man' ? 'male' : quizData.gender === 'woman' ? 'female' : quizData.gender === 'non_binary' ? 'nb' : 'donot_say'}.jpeg" alt="${quizData.gender}" class="summary-img">
           </span>
-          <span class="summary-value">${quizData.gender.replace('_', ' ')}</span>
-          <span class="summary-label">Gender</span>
+          <span class="summary-value">${t(genderKey[quizData.gender] || 'preferNotToSay')}</span>
+          <span class="summary-label">${t('reportGender')}</span>
         </div>
         <div class="summary-card">
           <span class="summary-icon">💼</span>
-          <span class="summary-value">${quizData.occupation}</span>
-          <span class="summary-label">Occupation</span>
+          <span class="summary-value">${t(quizData.occupation)}</span>
+          <span class="summary-label">${t('reportOccupation')}</span>
         </div>
         <div class="summary-card">
           <span class="summary-icon">📊</span>
           <span class="summary-value">${stats.totalSchemes}</span>
-          <span class="summary-label">Schemes for you</span>
+          <span class="summary-label">${t('reportSchemes')}</span>
         </div>
       </section>
 
       <section class="report-schemes">
-        <h2>Schemes That Matter to You</h2>
+        <h2>${t('reportSchemesTitle')}</h2>
         <div class="schemes-grid">
           ${schemes.map(scheme => `
             <div class="scheme-card">
@@ -118,21 +127,21 @@ export function generateReportHTML(report) {
               <h3>${scheme.name}</h3>
               <p class="scheme-short">${scheme.short}</p>
               <p class="scheme-emotional">"${scheme.emotional}"</p>
-              ${scheme.year !== 'Not specified in sources' ? `<span class="scheme-year">Since ${scheme.year}</span>` : ''}
+              ${scheme.year !== 'Not specified in sources' ? `<span class="scheme-year">${t('reportSince')} ${scheme.year}</span>` : ''}
             </div>
           `).join('')}
         </div>
       </section>
 
       <section class="report-cta">
-        <h2>Share Your Story</h2>
-        <p>Help spread the word about LDF's work for Kerala</p>
+        <h2>${t('shareTitle')}</h2>
+        <p>${t('shareDesc')}</p>
         <div class="share-buttons">
           <button class="share-btn" data-action="share-whatsapp">WhatsApp</button>
           <button class="share-btn" data-action="share-twitter">Twitter</button>
           <button class="share-btn" data-action="share-facebook">Facebook</button>
         </div>
-        <button class="btn-primary" data-action="restart">Take Quiz Again</button>
+        <button class="btn-primary" data-action="restart">${t('restart')}</button>
       </section>
     </div>
   `

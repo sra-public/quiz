@@ -77,12 +77,6 @@ header {
   line-height: 1.2;
 }
 
-.brand span {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text-secondary);
-}
-
 .hero {
   text-align: center;
   padding: 0 0 40px;
@@ -249,7 +243,7 @@ header {
 }
 
 .age-display span {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 800;
   color: var(--ldf-red-dark);
 }

@@ -1,6 +1,7 @@
 import './style.css'
 import { LandingPage, AgeStep, GenderStep, OccupationStep, PriorityStep, ReportPage, getQuizData, setQuizData } from './layouts.js'
 import { getReport } from './mock-reports.js'
+import { setLanguage, getLanguage } from './i18n.js'
 
 const screens = {
   landing: LandingPage,
@@ -24,7 +25,15 @@ function render() {
     app.innerHTML = screens[currentScreen]()
   }
   
+  updateLangButtons()
   attachEventListeners()
+}
+
+function updateLangButtons() {
+  const currentLang = getLanguage()
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === currentLang)
+  })
 }
 
 function navigateTo(screen) {
@@ -83,8 +92,9 @@ function attachEventListeners() {
   
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'))
-      e.target.classList.add('active')
+      const lang = e.target.dataset.lang
+      setLanguage(lang)
+      render()
     })
   })
   
